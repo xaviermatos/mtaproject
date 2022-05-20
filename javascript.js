@@ -1,12 +1,13 @@
 // JavaScript File
 /*global $*/
 $(document).ready(function() {
+    
  $("#btn").click(function(){
   var input3 = $("#input1").val();
-          
+     
       $.getJSON( "https://ajar-target.gomix.me/status" , function (response) {
-       console.log(response)
-       var stat = (response)
+       console.log(response);
+       var stat = (response);
        $("body").append(response[1].status);
       var trains = ["1","2","3","4","6","7","a","b","c","d","e","f","g","j","l","m","n","q","r","s","w","z"
       ];
@@ -35,4 +36,5 @@ $(document).ready(function() {
      $("#gif").hide();
  })
 */
+ });
 });
