@@ -17,7 +17,8 @@ $(document).ready(function() {
       }
        
 });
-      
+  
+ /* 
       function(response) {
         console.log(response);
         $("#gif").append("<img src=" + response.data[0].images.original.url + ">");
@@ -35,3 +36,4 @@ $(document).ready(function() {
  })
  
 });
+*/
