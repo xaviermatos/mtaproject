@@ -34,6 +34,5 @@ $(document).ready(function() {
      $("#input3").remove();
      $("#gif").hide();
  })
- 
-});
 */
+});
